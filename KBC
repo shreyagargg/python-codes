@@ -1,0 +1,26 @@
+# KBC
+print('''Welcome to KBC, you will earn 50 points for every question\nlet us start:- ''')
+print('what is hello in german\n1. halo \t 2. bonjour')
+l = []
+a = int(input())
+if(a==1):
+    print('correct, move to next')
+    l.append(1)
+else:print('wrong, move to next')
+
+print('what is bright in german\n1. dunkel \t 2. hell')
+a = int(input())
+if(a==2):
+    print('correct, move to next')
+    l.append(1)
+else:print('wrong, move to next')
+
+print('what is mother in german\n1. motter \t 2. mutter')
+a = int(input())
+if(a==2):
+    print('correct,')
+    l.append(1)
+else:print('wrong,')
+
+print('your correct ans are',len(l))
+print('total points you have earned are -',50*len(l))
